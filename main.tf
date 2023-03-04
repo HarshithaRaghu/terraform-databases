@@ -35,3 +35,8 @@ output "redis" {
 # output "secret-data" {
 #   value = module.mongodb.data
 # }
+
+# Just for debugging
+output "MONGO_ENDPOINT" {
+    value = module.mongodb.MONGO_ENDPOINT
+}
